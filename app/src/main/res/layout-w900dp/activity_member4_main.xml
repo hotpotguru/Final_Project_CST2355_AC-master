@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member4MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarm4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/button4_name"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat"
+        app:titleTextColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/ListViewNameM4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarm4"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="38dp"
+        android:text="@string/m4_lv_mylist" />
+
+    <LinearLayout
+        android:id="@+id/listtitleBarM4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ListViewNameM4"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/StationNumberM4"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/m4_station_number" />
+
+        <TextView
+            android:id="@+id/RouteNumberM4"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/m4_bus_line" />
+
+        <TextView
+            android:id="@+id/StationNameM4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="@string/m4_station_name" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListViewM4"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listtitleBarM4"
+        android:layout_above="@+id/SearchButtonM4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <EditText
+        android:id="@+id/SearchTextM4"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@+id/radiogroupsearchM4"
+        android:layout_marginStart="2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toLeftOf="@+id/SearchButtonM4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Button
+        android:id="@+id/SearchButtonM4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@+id/radiogroupsearchM4"
+        android:layout_alignRight="@+id/ListViewM4"
+        android:text="@string/m4_searchbtn"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupsearchM4"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioSearchStationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m4_station_number" />
+
+        <RadioButton
+            android:id="@+id/radioSearchStationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m4_station_name" />
+
+        <RadioButton
+            android:id="@+id/radioSearchBusNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m4_bus_line" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutdetailsmainm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarm4"
+        android:layout_toRightOf="@+id/ListViewM4"
+        android:layout_alignParentBottom="true">
+    </FrameLayout>
+
+</RelativeLayout>

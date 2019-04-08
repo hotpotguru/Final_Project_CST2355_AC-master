@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1FavActivity">
+
+    <TextView
+        android:id="@+id/m1Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m1FavButton"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        />
+
+
+    <ListView
+        android:id="@+id/m1Favs"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_below="@id/m1Header"
+        android:layout_above="@id/m1BackButton">
+
+
+    </ListView>
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/m1BackButton"
+        android:textSize="10sp"
+        android:text="@string/m1Back"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/m1SearchFavsButton"
+        />
+
+
+    <EditText
+        android:id="@+id/m1SearchFavsBar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/m1SearchFavsBar"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/m1SearchFavsButton"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/m1SearchButton"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/m1SearchFavsBar"
+        />
+
+    <FrameLayout
+        android:id="@+id/m1FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/m1Favs"
+
+        android:gravity="center">
+
+    </FrameLayout>
+
+</RelativeLayout>

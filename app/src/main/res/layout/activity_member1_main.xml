@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Member1MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/button1_name"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat"
+        app:titleTextColor="@android:color/holo_blue_dark" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m1SearchResults"
+        android:layout_below="@id/toolbarm1"
+        android:layout_above="@id/m1ProgressBar">
+
+    </ListView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m1ProgressBar"
+        android:layout_above="@id/m1SearchBar"
+
+        />
+
+
+    <EditText
+        android:id="@+id/m1SearchBar"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/m1SearchBar"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/m1SearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m1SearchButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/m1SearchBar"
+        />
+    <Button
+        android:id="@+id/m1FavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m1FavButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/m1SearchButton"
+
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member2MainActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/button2_name"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat"
+        app:titleTextColor="@android:color/holo_blue_dark"
+        android:layout_above="@+id/movieList_m2"/>
+
+    <ListView
+        android:id="@+id/movieList_m2"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        />
+
+
+
+        <EditText
+            android:id="@+id/movieTextEdit_m2"
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/m2_hint"
+            android:inputType="text"
+            android:layout_above="@id/aboutButton_m2"/>
+
+        <Button
+            android:id="@+id/addButton_m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movieTextEdit_m2"
+            android:layout_above="@+id/aboutButton_m2"
+            android:text="@string/m2_add"
+            />
+
+    <FrameLayout
+        android:id="@+id/frame_m2"
+        android:layout_width="436dp"
+        android:layout_height="294dp"
+        android:layout_above="@+id/addButton_m2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="106dp">
+
+
+        <fragment
+            android:id="@+id/fragmentTablet_m2"
+            android:name="ca.algonquinstudents.cst2335_group_project.M2_HelpFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            ></fragment>
+    </FrameLayout>
+
+        <Button
+            android:id="@+id/helpButton_m2"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar_m2"
+
+            android:text="@string/m2_help" />
+
+        <Button
+            android:id="@+id/aboutButton_m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/progressBar_m2"
+            android:layout_toRightOf="@+id/helpButton_m2"
+            android:text="@string/m2_about" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_m2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+

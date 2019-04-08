@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/home_item_main"
+        android:orderInCategory="50"
+        android:icon="@drawable/home48"
+        app:showAsAction="always"
+        android:title="@string/buttonhome_name" >
+    </item>
+    <item
+        android:id="@+id/food_item_m1"
+        android:orderInCategory="100"
+        android:icon="@drawable/foodnutrition48"
+        app:showAsAction="always"
+        android:title="@string/button1_name" >
+    </item>
+    <item
+        android:id="@+id/movie_item_m2"
+        android:orderInCategory="150"
+        android:icon="@drawable/movieinfo48"
+        app:showAsAction="always"
+        android:title="@string/button2_name" >
+    </item>
+    <item
+        android:id="@+id/cbc_item_m3"
+        android:orderInCategory="200"
+        android:icon="@drawable/cbcicon48"
+        app:showAsAction="always"
+        android:title="@string/button3_name" >
+    </item>
+    <item
+        android:id="@+id/octrans_item_m4"
+        android:orderInCategory="250"
+        android:icon="@drawable/octranspo48"
+        app:showAsAction="always"
+        android:title="@string/button4_name" >
+    </item>
+    <item
+        android:id="@+id/help_menu_item"
+        android:orderInCategory="600"
+        app:showAsAction="never"
+        android:title="@string/heip_item_name" >
+    </item>
+    <item
+        android:id="@+id/about_menu_item"
+        android:orderInCategory="650"
+        app:showAsAction="never"
+        android:title="@string/about_item_name" >
+    </item>
+</menu>

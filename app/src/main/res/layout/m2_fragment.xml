@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<TextView
+    android:id="@+id/saved_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<TextView
+    android:id="@+id/shortest_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<TextView
+    android:id="@+id/longest_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<TextView
+    android:id="@+id/average_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<TextView
+    android:id="@+id/averageYear_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<TextView
+    android:id="@+id/help_m2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="100dp"
+    android:text="@string/m2_helpInfo" />
+</LinearLayout>

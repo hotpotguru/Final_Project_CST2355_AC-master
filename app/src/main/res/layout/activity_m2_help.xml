@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M2Help">
+
+    <fragment
+        android:name ="ca.algonquinstudents.cst2335_group_project.M2_HelpFragment"
+        android:id="@+id/fragmentPhone_m2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></fragment>
+
+</FrameLayout>

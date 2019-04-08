@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member2MainActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/button2_name"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat"
+        app:titleTextColor="@android:color/holo_blue_dark" />
+
+    <ListView
+        android:id="@+id/movieList_m2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/movieTextEdit_m2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/m2_hint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/addButton_m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movieTextEdit_m2"
+            android:text="@string/m2_add" />
+
+        <Button
+            android:id="@+id/helpButton_m2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieTextEdit_m2"
+            android:text="@string/m2_help" />
+
+        <Button
+            android:id="@+id/aboutButton_m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieTextEdit_m2"
+            android:layout_toRightOf="@+id/helpButton_m2"
+            android:text="@string/m2_about" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_m2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+
+

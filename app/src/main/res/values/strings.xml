@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">CST2355 Group Project</string>
+    <string name="project_title">CST2355 Group Project\nInformation Center</string>
+    <string name="version_info">Version: December, 2018</string>
+    <string name="course_message">Algonquin College - Computer Programmer\nCST2355-020-022-2018Fall\nProfessor: Eric Torunski, Mohammad Kadhum</string>
+    <string name="group_message">===== Group 008 - Members: =====</string>
+    <string name="member1_name">Claire Hendrickson-Jones</string>
+    <string name="member2_name">Galen Reid</string>
+    <string name="member3_name">Vithura Sribalachandran</string>
+    <string name="member4_name">XueNian Jiang</string>
+    <string name="buttonhome_name">Information Center</string>
+    <string name="button1_name">Food Nutrition DB</string>
+    <string name="button2_name">Movie Info: OMDb </string>
+    <string name="button3_name">CBC News Reader</string>
+    <string name="button4_name">OC Bus Route</string>
+    <string name="heip_item_name">Help</string>
+    <string name="about_item_name">About</string>
+    <string name="positive_yes">Yes</string>
+    <string name="positive_ok">Ok</string>
+    <string name="negative_no">No</string>
+    <string name="negative_cancel">Cancel</string>
+
+    <string name="m1_help_title">Food Nutrition Help</string>
+    <string name="m1_help_message">Food Nutrition app by Claire Hendrickson-Jones\nversion 1.0\n search for foods and add them to your favourites</string>
+    <string name="m1SearchBar">Enter a food</string>
+    <string name="m1SearchButton">Search</string>
+    <string name="m1FavButton">Favourites</string>
+    <string name="m1Save">Save</string>
+    <string name="m1FoodAddedMessage"> added to favourites</string>
+    <string name="m1Result">Result</string>
+    <string name="m1Delete">Delete</string>
+    <string name="m1AddATag">Add a tag</string>
+    <string name="m1add">add</string>
+    <string name="m1NoResults">no results</string>
+    <string name="m1Back">Back</string>
+    <string name="m1ResultsForTag">Results for tag </string>
+    <string name="m1TotalCalories">Total calories:</string>
+    <string name="m1AvgCalories">Average calories:</string>
+
+    <string name="m1SearchFavsBar">Search by tag</string>
+
+    <string name="m2_help_title">Movie Info Help</string>
+    <string name="m2_help_message">Please click Help button</string>
+    <string name="m2_aboutText">Author: Galen Reid  Version 1.0</string>
+    <string name="m2_hint">Search Movie</string>
+    <string name="m2_add">Add</string>
+    <string name="m2_help">Help</string>
+    <string name="m2_about">About</string>
+    <string name="m2_Title">Title: </string>
+    <string name="m2_Year">Year: </string>
+    <string name="m2_Rated">Rated: </string>
+    <string name="m2_Released">Released: </string>
+    <string name="m2_Runtime">Runtime: </string>
+    <string name="m2_Genre">Genre: </string>
+    <string name="m2_Director">Director: </string>
+    <string name="m2_Actors">Starring: </string>
+    <string name="m2_Plot">Plot: </string>
+    <string name="m2_back">Back</string>
+    <string name="m2_save">Save Movie</string>
+    <string name="m2_delete">Delete</string>
+    <string name="m2_noMovie">Movie not found</string>
+    <string name="m2_deleteMovie">Movie Deleted</string>
+    <string name="m2_saveMovie">Movie Saved</string>
+    <string name="m2_saveCount">Total Movies Saved: </string>
+    <string name="m2_saveShort">Shortest Movie: </string>
+    <string name="m2_saveLong">Longest Movie: </string>
+    <string name="m2_saveAvg">Average Lenght: </string>
+    <string name="m2_saveYear">Average release year: </string>
+    <string name="m2_helpInfo">Help: Enter a movie name into the search bar to find its information.
+    You may save a movies info to your device. Click saved movies to see their info or delete them.</string>
+
+
+    <string name="m3_help_title">CBC News Reader Help</string>
+    <string name="m3_help_message">Help Message for CBC News Reader</string>
+
+    <string name="m4_station_number">Stop#</string>
+    <string name="m4_bus_line">Bus#</string>
+    <string name="m4_station_name">Stop Name</string>
+    <string name="m4_show_mylist">Show My List</string>
+    <string name="m4_lv_mylist">My List</string>
+    <string name="m4_db_searching_wait">Database Searching, Please wait ...... </string>
+    <string name="m4_db_search_result">Search Result: </string>
+    <string name="m4_db_search_result_no_match">No Matched Item Found!</string>
+    <string name="m4_internet_error">Unable to Access Internet Services.\nPlease check internet connection.</string>
+    <string name="m4_help_title">OC Bus Route Help</string>
+    <string name="m4_help_message">OC Bus Route App by XueNian Jiang\nVersion: 1.0\n\nClick the radio button to select search method.\nClick \'Search By\' button to start a search.\nSelect an item from search result or \'My List\' to see the bus details.\nYou can save the item to \'My List\' or remove the item from \'My List\'.</string>
+    <string name="m4_searchbtn">Search by</string>
+    <string name="m4_dialog_title">Please confirm</string>
+    <string name="m4_remove_button">Remove from My List</string>
+    <string name="m4_add_button">Add to My List</string>
+    <string name="m4_refresh_button">Refresh Details</string>
+    <string name="m4_dialog_message">Remove the station and bus form your list?</string>
+    <string name="m4_snackbar_message">Remove from My List; Add to My List; or Refresh the Details.</string>
+    <string name="m4_snackbar_search">Search by Stop Code, Search by Stop Name, Search by Route Number, Or Click an item for Details.</string>
+    <string name="m4_internet_wait">Internet Querying, Please wait ......</string>
+</resources>
